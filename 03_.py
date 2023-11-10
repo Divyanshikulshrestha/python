@@ -1,6 +1,6 @@
-# b="harry's" # use this if you have singel quotes in your strings
-# b='harry"s' # use this if you have double quotes in your strings
-# b='''harry"s''' # you can also use this in your strings
+# b="harry's"       ------>       # use this if you have singel quotes in your strings
+# b='harry"s'       ------>       # use this if you have double quotes in your strings
+# b='''harry"s'''           ------>         # you can also use this in your strings
 # # triple code is also use to write string in multiple line like this below
 # b=''' divyanshi
 # kulshrestha'''
@@ -19,8 +19,9 @@
 
 # name = "divyanshi"
 # print(name[4])
-# # name[3]="r" ----> it does not work
+# # name[3]="r" ----> it does not work  (you can't change)
 
+# first include last exclude
 
 # # string sclicing
 # print(name[0:5])
@@ -31,7 +32,7 @@
 
 
 # #skiping in string
-# d=name[0::3]
+# d=name[0:9:3]
 # print(d)
 
 
